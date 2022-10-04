@@ -1,6 +1,6 @@
-image: Ubuntu1804 #сборка
+image: Ubuntu1804
 stack: node12 
-branches: #branch
+branches:
 only: -master
 cache: node_modules
 install: -npm install
