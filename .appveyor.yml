@@ -1,6 +1,6 @@
 image: Ubuntu1804 #сборка
-stack: node12
-branches:
+stack: node12 
+branches: #branch
   only:
     -master
 cache: node_modules
