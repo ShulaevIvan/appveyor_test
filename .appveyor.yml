@@ -3,7 +3,6 @@ stack: node12
 branches:
   only:
     -master
-
 cache: node_modules
 install:
     -npm install
